@@ -1,2 +1,3 @@
 .idea/
-static/src/compass
+static/src/compass/stylesheets
+static/src/compass/.sass-cache
