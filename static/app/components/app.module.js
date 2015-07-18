@@ -4,11 +4,11 @@
 
 export default {};
 
-var seforaAdminModule = angular.module('seforaAdminModule',
+var seforaAdminModule = angular.module('myModule',
     [
         'ui.router'
     ])
-    .constant('BACKEND_URL_SERVER', 'https://localhost:8443')
+    .constant('BACKEND_URL_SERVER', 'https://test')
     .constant('VERSION', '1.0');
 
 var components = [
@@ -22,6 +22,6 @@ function bootstrapComponents(ngModule, components) {
 }
 
 
-bootstrapComponents(seforaAdminModule, components);
+bootstrapComponents(myModule, components);
 
-export default seforaAdminModule;
+export default myModule;

@@ -6,12 +6,12 @@ export default (ngModule) => ngModule.config(routeConfiguration);
 function routeConfiguration($stateProvider, $urlRouterProvider) {
 
 
-    $urlRouterProvider.otherwise('/login');
+    $urlRouterProvider.otherwise('/test');
 
-    $stateProvider.state('login', {
-        name: 'login',
-        url: '/login',
-        templateUrl: './components/authentication/authenticationView.html',
-        controller: 'AuthenticationController as authenticationController'
+    $stateProvider.state('test', {
+        name: 'test',
+        url: '/test',
+        templateUrl: './components/module/moduleView.html',
+        controller: 'MyController as myController'
     });
 }
