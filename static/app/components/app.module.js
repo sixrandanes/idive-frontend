@@ -4,11 +4,14 @@
 
 export default {};
 
-var seforaAdminModule = angular.module('myModule',
+import uiRouter from 'angular-ui-router';
+import appRoutes from './app.routes';
+
+var myModule = angular.module('myModule',
     [
         'ui.router'
     ])
-    .constant('BACKEND_URL_SERVER', 'https://test')
+    .constant('BACKEND_URL_SERVER', 'http://test')
     .constant('VERSION', '1.0');
 
 var components = [

@@ -4,8 +4,8 @@
 import jquery from 'jquery';
 import angular from 'angular';
 import bootstrap from './assets/javascripts/bootstrap.min';
-import seforaAdminModule from './components/app.module';
+import myModule from './components/app.module';
 
 angular.element(document).ready(function () {
-    angular.bootstrap(document, ['seforaAdminModule']);
+    angular.bootstrap(document, ['myModule']);
 });
