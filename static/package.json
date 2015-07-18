@@ -30,7 +30,7 @@
   "license": "ISC",
   "jspm": {
     "directories": {
-      "baseURL": "app/",
+      "baseURL": "app",
       "test": "test"
     },
     "dependencies": {
